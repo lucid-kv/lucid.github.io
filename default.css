@@ -53,3 +53,36 @@ body {
         transform: translatey(0px);
     }
 }
+
+@media (max-width: 991px) {
+    .showcase img {
+        height: initial;
+        width: 60vw;
+        margin-bottom: 50px;
+    }
+
+    .showcase h1 {
+        font-size: 80pt;
+    }
+
+    .showcase h2 {
+        font-size: 40pt;
+    }
+    
+    @keyframes float {
+        0% {
+            -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+        }
+
+        50% {
+            -webkit-transform: translatey(-40px);
+            transform: translatey(-40px);
+        }
+
+        100% {
+            -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+        }
+    }
+}
