@@ -53,11 +53,17 @@ body {
     text-decoration: none;
     border-radius: 3px;
     margin-top: 15px;
+    text-align: center;
 }
 
 .btn.fill {
     background-color: white;
     color: #1d1b26;
+}
+
+.showcase .btn:not(.fill)
+{
+    margin-left: 10px;
 }
 
 @keyframes float {
@@ -79,7 +85,7 @@ body {
 
 @media (max-width: 991px) {
     .showcase {
-        height: 90vh;
+        height: 100vh;
     }
 
     .showcase img {
@@ -97,7 +103,14 @@ body {
         padding: 0 20px;
     }
 
-    .showcase p {
-        /* font-size: 23pt; */
+    .showcase div {
+        display: flex;
+        margin-top: initial;
+        flex-direction: column;
+    }
+
+    .showcase .btn:not(.fill)
+    {
+        margin-left: initial;
     }
 }
