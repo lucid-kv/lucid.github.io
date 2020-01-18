@@ -37,6 +37,11 @@ body {
     font-weight: 400;
 }
 
+.showcase p {
+    font-size: 17pt;
+    text-align: center;
+}
+
 @keyframes float {
     0% {
         -webkit-transform: translatey(0px);
@@ -67,6 +72,10 @@ body {
 
     .showcase h2 {
         font-size: 40pt;
+    }
+
+    .showcase p {
+        font-size: 23pt;
     }
     
     @keyframes float {
