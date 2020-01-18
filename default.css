@@ -69,38 +69,26 @@ body {
 }
 
 @media (max-width: 991px) {
+    .showcase {
+        height: 90vh;
+    }
+
     .showcase img {
         height: initial;
         width: 60vw;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
     }
 
     .showcase h1 {
-        font-size: 80pt;
-    }
-
-    .showcase h2 {
         font-size: 40pt;
     }
 
     .showcase p {
-        font-size: 23pt;
+        font-size: 12pt;
+        padding: 0 20px;
     }
-    
-    @keyframes float {
-        0% {
-            -webkit-transform: translatey(0px);
-            transform: translatey(0px);
-        }
 
-        50% {
-            -webkit-transform: translatey(-40px);
-            transform: translatey(-40px);
-        }
-
-        100% {
-            -webkit-transform: translatey(0px);
-            transform: translatey(0px);
-        }
+    .showcase p {
+        /* font-size: 23pt; */
     }
 }
